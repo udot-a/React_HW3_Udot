@@ -91,4 +91,5 @@ button:hover{
 .move-box{
     right:0;
     transition: all 1s;
+    z-index: 100;
 }
