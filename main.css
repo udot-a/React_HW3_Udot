@@ -70,7 +70,7 @@ button:hover{
 .app-box{
     display:flex;
     justify-content: space-around;
-    width: 20vw;
+    width: 30vw;
     background-color: ghostwhite;
     /* height: 50vh; */
     border: 1px solid grey;
