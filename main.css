@@ -1,0 +1,94 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgrey;
+    height: 10vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow: 1;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.googleimg{
+    max-width:30vw;
+    margin: 10px;
+}
+.image{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.search{
+    border:none;
+    outline: none;
+}
+.searchinput{
+    margin:10px;
+    border: 1px solid lightslategrey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 20px;
+}
+button{
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+button:hover{
+    border: 1px solid lightslategrey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.avatar{
+    width: 30px;
+    border-radius:15px;
+}
+.app-box{
+    display:flex;
+    justify-content: space-around;
+    width: 20vw;
+    background-color: ghostwhite;
+    /* height: 50vh; */
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    flex-wrap: wrap;
+    position: fixed;
+    right: -500px;
+    top:10vh;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.icons{
+    max-width: 10vw;
+    max-height: 10vh;
+    margin: 5px;
+}
+
+.move-box{
+    right:0;
+    transition: all 1s;
+}
